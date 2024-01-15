@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LogIn</title>
+    <link rel="stylesheet" href="LogIn.css" />
+    <link rel="stylesheet" href="Navigation Bar.css" />
+    <link rel="stylesheet" href="Footer.css">
+
+    <script>
+      function myFunction() {
+        alert("Your login has been successful.");
+        alert("Please go to room list");
+      }
+      </script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+            <a href="#">HOTELGO</a>
+        </div>
+        <div class="menu">
+            <div class="menu-links">
+                <a href="index.html">Home</a>
+                <a href="Facility Service.html">Facility</a>
+                <a href="Reservation Date.html" >Room List</a>
+                <a href="LogIn.html">LogIn</a>
+            </div>
+        </div>
+    </nav>
+    </header>
+
+    <main>
+    <div class="container">
+      <form action="">
+        <h2>LogIn</h2>
+        <input type="username" placeholder="Username" required>
+        <input type="password" placeholder="Password" required>
+        <p>Forgot Password?</p>
+       <button onclick="myFunction()">Login</button>
+      </form>
+
+      <p class="not-member">
+        Not a member?
+        <a href="Register.html">SignUp Now</a>
+      </p>
+    </div>
+</main>
+
+   
+<footer>
+    <div class="footer-content">
+        <p>Copyright &copy; 2023 HotelGo | All rights reserved.</p>
+    </div>
+</footer>
+
+  </body>
+</html>
